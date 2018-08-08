@@ -1,0 +1,15 @@
+<suite name = "softwaretestingmaterial">
+
+
+<test name = "testngTest">
+
+<classes>
+
+<class name="guru99.gittest.AppTest"/>
+
+</classes>
+
+
+</test>
+
+</suite>
