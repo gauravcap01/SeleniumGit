@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.AfterClass;
  
 public class AppTest {
@@ -16,10 +17,15 @@ public class AppTest {
   }
   
   @BeforeClass
+  
   public void beforeClass() {
    
-   System.setProperty("webdriver.gecko.driver", "C:\\Users\\gaura\\eclipse-workspace\\gittest\\drivers\\geckodriver-v0.21.0-win64\\geckodriver.exe");
+	
+   String path = System.getProperty("user.dir");
+   //System.out.println(path);
+   System.setProperty("webdriver.gecko.driver", path+"\\drivers\\geckodriver-v0.21.0-win64\\geckodriver.exe");
    driver = new FirefoxDriver();
+   
    
   }
  
