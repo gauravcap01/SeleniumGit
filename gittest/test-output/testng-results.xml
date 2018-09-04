@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-08-08T08:58:43Z" name="softwaretestingmaterial" finished-at="2018-08-08T08:58:53Z" duration-ms="9956">
+  <suite started-at="2018-08-08T23:18:50Z" name="softwaretestingmaterial" finished-at="2018-08-08T23:19:03Z" duration-ms="12981">
     <groups>
     </groups>
-    <test started-at="2018-08-08T08:58:43Z" name="testngTest" finished-at="2018-08-08T08:58:53Z" duration-ms="9956">
+    <test started-at="2018-08-08T23:18:50Z" name="testngTest" finished-at="2018-08-08T23:19:03Z" duration-ms="12981">
       <class name="guru99.gittest.AppTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:guru99.gittest.AppTest@b2c9a9c]" started-at="2018-08-08T03:58:43Z" name="beforeClass" finished-at="2018-08-08T03:58:47Z" duration-ms="4271" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:guru99.gittest.AppTest@b2c9a9c]" started-at="2018-08-08T18:18:50Z" name="beforeClass" finished-at="2018-08-08T18:18:55Z" duration-ms="5044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openMyBlog()[pri:0, instance:guru99.gittest.AppTest@b2c9a9c]" started-at="2018-08-08T03:58:47Z" name="openMyBlog" finished-at="2018-08-08T03:58:52Z" duration-ms="4745" status="PASS">
+        <test-method signature="openMyBlog()[pri:0, instance:guru99.gittest.AppTest@b2c9a9c]" started-at="2018-08-08T18:18:55Z" name="openMyBlog" finished-at="2018-08-08T18:19:01Z" duration-ms="6536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMyBlog -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:guru99.gittest.AppTest@b2c9a9c]" started-at="2018-08-08T03:58:52Z" name="afterClass" finished-at="2018-08-08T03:58:53Z" duration-ms="912" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:guru99.gittest.AppTest@b2c9a9c]" started-at="2018-08-08T18:19:01Z" name="afterClass" finished-at="2018-08-08T18:19:03Z" duration-ms="1379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
